@@ -1,11 +1,25 @@
 body {
   background-image: url("../images/blackjackpic.jpg");
   background-size: cover;
+  text-align: center;
 }
+
 h1 {
   color: #d4af37;
   font-family: "Nunito", sans-serif;
   font-size: 150px;
-  margin-top: 75px;
-  text-align: center;
+  margin: 75px auto 40px;
+}
+
+p {
+  color: #ffff;
+  font-family: poppins;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#message-el {
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 0px;
 }

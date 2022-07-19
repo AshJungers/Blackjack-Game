@@ -1,5 +1,11 @@
+body {
+  background-image: url("../images/blackjackpic.jpg");
+  background-size: cover;
+}
 h1 {
+  color: #d4af37;
   font-family: "Nunito", sans-serif;
-  font-size: 100px;
+  font-size: 150px;
+  margin-top: 75px;
   text-align: center;
 }

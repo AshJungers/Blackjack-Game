@@ -25,15 +25,18 @@ button {
   color: #138220;
   font-family: poppins;
   font-size: 30px;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
   padding: 10px 10px;
   width: 250px;
 }
 
 button:hover {
-  font-weight: bolder;
   cursor: pointer;
   border-style: double;
+}
+.container {
+  text-align: center;
 }
 
 #message-el {

@@ -33,6 +33,7 @@ button {
 button:hover {
   font-weight: bolder;
   cursor: pointer;
+  border-style: double;
 }
 
 #message-el {

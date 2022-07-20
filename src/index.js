@@ -8,6 +8,7 @@ let message = "";
 /* Targeting ID elements */
 let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
+let cardsEl = document.getElementById("cards-el");
 
 function startGame() {
   if (sum <= 20) {
@@ -21,4 +22,5 @@ function startGame() {
   }
   messageEl.textContent = message;
   sumEl.textContent = "Sum: " + sum;
+  cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
 }

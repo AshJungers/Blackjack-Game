@@ -26,7 +26,9 @@ function startGame() {
 }
 
 function newCard() {
-  let card = 6
-  let 
   console.log("Drawing a new card from the deck!");
+  let card = 6;
+  sum += card;
+
+  startGame();
 }

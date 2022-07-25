@@ -3,7 +3,7 @@ let secondCard = getRandomCard();
 let cards = [firstCard, secondCard];
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
-let isAlive = true;
+let isAlive = false;
 let message = "";
 
 /* Targeting ID elements */
@@ -23,6 +23,7 @@ function getRandomCard() {
 }
 
 function startGame() {
+  isAlive = true;
   renderGame();
 }
 
